@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/sudoku_board_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/cellTheme"
+                android:layout_height="45dp"
+                android:background="@drawable/right_boarder_default"
+                android:tag="00"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="01"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="02"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="03"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="04"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="05"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="06"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="07"/>
+
+            <Button
+                android:background="@drawable/right_boarder_default"
+                style="@style/cellTheme"
+                android:tag="08"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/cellTheme"
+                android:layout_height="45dp"
+                android:background="@drawable/right_boarder_default"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="12"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="13"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="14"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="15"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="16"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="17"/>
+
+            <Button
+                android:background="@drawable/right_boarder_default"
+                style="@style/cellTheme"
+                android:tag="18"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_thin"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/cellTheme"
+                android:layout_height="45dp"
+                android:background="@drawable/right_boarder_default"
+                android:tag="20"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="21"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="22"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="23"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="24"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="25"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="26"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="27"/>
+
+            <Button
+                android:background="@drawable/right_boarder_default"
+                style="@style/cellTheme"
+                android:tag="28"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/cellTheme"
+                android:layout_height="45dp"
+                android:background="@drawable/right_boarder_default"
+                android:tag="3"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="31"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="32"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="33"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="34"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="35"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="36"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="37"/>
+
+            <Button
+                android:background="@drawable/right_boarder_default"
+                style="@style/cellTheme"
+                android:tag="38"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/cellTheme"
+                android:layout_height="45dp"
+                android:background="@drawable/right_boarder_default"
+                android:tag="40"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="41"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="42"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="43"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="44"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="45"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="46"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="47"/>
+
+            <Button
+                android:background="@drawable/right_boarder_default"
+                style="@style/cellTheme"
+                android:tag="48"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_thin"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/cellTheme"
+                android:layout_height="45dp"
+                android:background="@drawable/right_boarder_default"
+                android:tag="50"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="51"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="52"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="53"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="54"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="55"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="56"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="57"/>
+
+            <Button
+                android:background="@drawable/right_boarder_default"
+                style="@style/cellTheme"
+                android:tag="58"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/cellTheme"
+                android:layout_height="45dp"
+                android:background="@drawable/right_boarder_default"
+                android:tag="60"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="61"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="62"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="63"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="64"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="65"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="66"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="67"/>
+
+            <Button
+                android:background="@drawable/right_boarder_default"
+                style="@style/cellTheme"
+                android:tag="68"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_default"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/cellTheme"
+                android:layout_height="45dp"
+                android:background="@drawable/right_boarder_default"
+                android:tag="70"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="71"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="72"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="73"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="74"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="75"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="76"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="77"/>
+
+            <Button
+                android:background="@drawable/right_boarder_default"
+                style="@style/cellTheme"
+                android:tag="78"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/row_underline_thin"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/cellTheme"
+                android:layout_height="45dp"
+                android:background="@drawable/right_boarder_default"
+                android:tag="80"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="81"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="82"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="83"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="84"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_layout"
+                android:tag="85"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="86"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="87"/>
+
+            <Button
+                style="@style/cellTheme"
+                android:background="@drawable/right_boarder_default"
+                android:tag="88"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clean_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_background"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="@string/clean_button"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/solve_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_background"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="@string/solve_button"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

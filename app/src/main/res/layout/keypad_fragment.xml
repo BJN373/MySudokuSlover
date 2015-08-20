@@ -1,0 +1,122 @@
+<RelativeLayout
+    android:id="@+id/rootlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/numpadlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/link_text_material_light"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/row_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/oneNum"
+                style="@style/number_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"/>
+
+
+            <TextView
+                android:id="@+id/twoNum"
+                style="@style/number_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2"/>
+
+
+            <TextView
+                android:id="@+id/threeNum"
+                style="@style/number_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/fourNum"
+                style="@style/number_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4"/>
+
+
+            <TextView
+                android:id="@+id/fiveNum"
+                style="@style/number_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5"/>
+
+
+            <TextView
+                android:id="@+id/sixNum"
+                style="@style/number_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/sevenNum"
+                style="@style/number_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="7"/>
+
+
+            <TextView
+                android:id="@+id/eightNum"
+                style="@style/number_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="8"/>
+
+
+            <TextView
+                android:id="@+id/nineNum"
+                style="@style/number_text"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="9"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

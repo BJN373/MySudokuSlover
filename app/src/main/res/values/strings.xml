@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Sudoku Slover</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="solve_button">Solve</string>
+    <string name="clean_button">Clean</string>
+    <string name="chose_namber_title">Chose number</string>
+</resources>

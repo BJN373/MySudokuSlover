@@ -121,7 +121,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                         numberSix.setOnClickListener(listener);
                         numberSeven.setOnClickListener(listener);
                         numberEight.setOnClickListener(listener);
-                        numberNine.setOnClickListener(listener);  
+                        numberNine.setOnClickListener(listener);
 
 
                         dialog.show();

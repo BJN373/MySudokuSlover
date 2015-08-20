@@ -6,14 +6,9 @@ package lviv.ua.mysudokuslover;
 public class Solver {
 
     private int[][] mSudoku;
-    private int number;
 
     Solver() {
         mSudoku = new int[9][9];
-    }
-
-    public void setNumber(int i, int j, int number){
-        mSudoku[i][j] = number;
     }
 
     private boolean solve(int i, int j, int[][] initial) {
@@ -89,9 +84,4 @@ public class Solver {
         }
         return true;
     }
-
-//    public boolean isValid(int[][] sudoku) {
-//        mSudoku = sudoku;
-//        return isValid();
-//    }
 }
